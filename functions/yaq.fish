@@ -21,7 +21,7 @@ function process_args
 end
 
 function yaq --description='yj | jaq' --wraps 'jaq'
-  set fish_trace 0
+  # set fish_trace 0
 
   if test (count $argv) -eq 0
     jaq --help
